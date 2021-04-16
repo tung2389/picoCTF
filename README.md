@@ -11,7 +11,7 @@ https://picoctf.org/
 
 [Wave a flag](./picoGym/Wave%20a%20flag/solution.md)
 
-[what's a net cat](./picoGym/what's%20a%20net%20cat/solution.md)
+[What's a net cat](./picoGym/What's%20a%20net%20cat/solution.md)
 
 [Nice netcat...](./picoGym/Nice%20netcat.../solution.md)
 
