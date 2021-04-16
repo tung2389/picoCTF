@@ -1,1 +1,1 @@
-jupiter.challenges.picoctf.org 41120
+nc jupiter.challenges.picoctf.org 41120
