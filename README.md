@@ -32,3 +32,6 @@ https://picoctf.org/
 [GET aHEAD](./picoGym/GET%20aHEAD/solution.md)
 
 ### Binary Exploitation
+
+
+- Small note: I used the python script updateREADME.md to add new problems to README.md automatically. For more details on how to use it, run ```python updateREADME.md -h```
