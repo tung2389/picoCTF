@@ -5,15 +5,15 @@ https://picoctf.org/
 
 ### General Skills
 
-[Obedient Cat](./picoGym/Obedient%20Cat/solution.md)
-
-[Python Wrangling](./picoGym/Python%20Wrangling/solution.md)
+[Nice netcat](./picoGym/Nice%20netcat/solution.md)
 
 [Wave a flag](./picoGym/Wave%20a%20flag/solution.md)
 
+[Python Wrangling](./picoGym/Python%20Wrangling/solution.md)
+
 [What's a net cat](./picoGym/What's%20a%20net%20cat/solution.md)
 
-[Nice netcat...](./picoGym/Nice%20netcat.../solution.md)
+[Obedient Cat](./picoGym/Obedient%20Cat/solution.md)
 
 ### Cryptography
 
@@ -30,3 +30,5 @@ https://picoctf.org/
 ### Web exploitation
 
 [GET aHEAD](./picoGym/GET%20aHEAD/solution.md)
+
+### Binary Exploitation
