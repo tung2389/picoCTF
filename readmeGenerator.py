@@ -6,6 +6,7 @@ python ../readmeGenerator.py -p './picoGym/' -s '/solution.md'
 
 from optparse import OptionParser
 from pathlib import Path
+from urllib.parse import quote
 from os import walk
 import os
 
@@ -31,7 +32,7 @@ def main():
     cwdName = os.getcwd().split('/')[-1]
     dirNames = [str(dirPath).split('/')[-1] for dirPath in sorted(Path(os.getcwd()).iterdir(), key=os.path.getmtime, reverse = True)]
     for dirName in dirNames:
-        content = '[' + dirName + ']' + f'({options.prefix}' + dirName.replace(' ', '%20') + f'{options.suffix}' + ')' 
+        content = '[' + dirName + ']' + f'({quote(options.prefix)}' + quote(dirName) + f'{quote(options.suffix)}' + ')' 
         print(content)
         print()
 

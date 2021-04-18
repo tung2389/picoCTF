@@ -4,6 +4,7 @@ Author: Tung Luu
 """
 
 from optparse import OptionParser
+from urllib.parse import quote
 
 categoriesList = [
     "General Skills",
@@ -64,7 +65,7 @@ def main():
 
         idx = newContent.find(category)
         newContent = newContent[0 : idx] + newContent[idx : idx + len(category)] \
-            + '\n\n' + '[' + probName + ']' + '(./picoGym/' + probName.replace(' ', '%20') + '/solution.md' + ')' \
+            + '\n\n' + '[' + probName + ']' + '(./picoGym/' + quote(probName) + '/solution.md' + ')' \
             + newContent[idx + len(category) : ]
 
     readme = open('README.md','w')
